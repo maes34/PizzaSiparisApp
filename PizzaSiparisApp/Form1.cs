@@ -61,8 +61,6 @@ namespace PizzaSiparisApp
                        "Ekstra Seçim Tutarı : " + "(+" + p.SelectPizzaSpecs() + "₺)" + "\n" +
                        "Tatlı Seçimi : " + cmbDesserts.Text + " (+" + cOrder.CreateOrderInDesserts() + "₺)" + "\n" +
                        "İçecek Seçimi : " + cmbDrinks.Text + " (+" + cOrder.CreateOrderInDrink() + "₺)" + "\n" +
-
-
                        "\nToplam Sipariş Tutarı : " + sonuc + "₺" +
                        "\nBizi tercih ettiğiniz için teşekkür ederiz...\n" + "Sipariş No : " + "#" + siparisNo
                        );
